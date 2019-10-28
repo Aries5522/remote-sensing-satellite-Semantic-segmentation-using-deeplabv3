@@ -1,6 +1,6 @@
 # remote-sensing-satellite-Semantic-segmentation-using-deeplabv3
 
-项目整体是基于遥感比赛数据集整理的：
+项目整体是基于遥感的一个项目数据集整理的：
 整个项目架构如下：
 --datasets
 
@@ -37,15 +37,14 @@
 ！[](./images/data.png)
 
 
-下面是一些训练结果
-！[](./images/field.PNG)
+下面是一些训练结果存放在images里面，可以大概查看下。
 
-！[](./images/road.PNG)
-
-！[](./images/waterbody.PNG)
-
-！[src](./images/out15.jpg)
-
-！[](./images/pred_img_building.png)
-
-！[](,/../images/fusion_out_15.png)
+|分类类别|模型大小|像素精度|iou|
+|-----|--------|------|-----|
+|建筑（building）|	58.5m	|0.9522|	0.8811|
+|水体（water-body）|	|0.8980	|0.8090|
+|草地（grass）	||0.6654	|0.4906（过拟合严重）|
+|森林（forest）||	0.5817	|0.4578（过拟合严重）|
+|道路（road）	||0.5606	|0.3560（过拟合严重）|
+|耕地（field）	||0.9026	|0.8566|
+|裸地（bare-land）	||0.4884	|0.3698（数据误标）|

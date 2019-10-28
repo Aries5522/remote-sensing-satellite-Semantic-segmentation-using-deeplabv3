@@ -32,10 +32,7 @@
 
 开始试验的时候，确认npy和src对应好之后就能运行train了，最终的模型和中途预测结果都在ckpt下.如果你需要数据的话，可以邮件联系我airespengqing@gmail.com
 
-
-数据存放方式：
-！[](./images/data.png)
-
+数据存放方式，见images文件夹data.png
 
 下面是一些训练结果存放在images里面，可以大概查看下。
 
